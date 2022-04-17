@@ -56,11 +56,11 @@ const SignUp = () => {
                     </div>
                     <div className="input-group">
                         <label htmlFor='password'>Password </label>
-                        <input onBlur={handlePassword} type="password" name="password" id="" required/>
+                        <input onBlur={handlePassword} type="password" name="password" required/>
                     </div>
                     <div className="input-group">
                         <label htmlFor='confirm-password'>Confirm Password </label>
-                        <input onBlur={handleConfirmPassword} type="password" name="confirm-password" id="" required/>
+                        <input onBlur={handleConfirmPassword} type="password" name="confirm-password"  required/>
                     </div>
                     <p style={{color: 'red'}}>{error}</p>
                     <input className='form-submit' type="submit" value="Sign Up" />
